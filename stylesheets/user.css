@@ -1,0 +1,56 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16/11/2013, 12:30:30 PM
+    Author     : arturohenao
+*/
+.cover-photo{
+    background-image: url('../images/user/cover_photo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:260px; 
+}
+.profile-picture{
+    width: 160px;
+    height: 160px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    background-image: url('../images/user/ramiro.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.profile-text{
+    color: white;
+    font-size: xx-large;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-left: 30px;
+    letter-spacing: 2px;
+    font-family: 'Open sans';
+} 
+
+.profile-subtitle{
+    font-size:small;
+}
+
+.profile-margin{
+    padding-top: 35px;
+}
+
+.left-panel{
+    width: 70%;
+}
+.right-panel{
+    widht: 30%;
+}
+.friends {
+    width:12%;
+    position: relative;
+    right: -137px;
+    top: -18px;
+}
